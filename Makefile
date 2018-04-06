@@ -68,7 +68,7 @@ ERROR = $(RED)
 ##  R U L E S                           ##
 ## #################################### ##
 
-all: clean debug release
+all: clean cleanall debug release
 
 #run:
 #	$(SILENT) $(MAKE) clean
