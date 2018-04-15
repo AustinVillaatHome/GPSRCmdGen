@@ -40,10 +40,10 @@ $complexman  = $cmanwarn $cmancmd
 
 $cmancmd     = Pour some cereals into the bowl
 $cmancmd     = $goroom {void meta: All access doors to {room 1} bust be closed.}
-$cmancmd     = take the {kobject} to the {placement 2 meta: Block access to {placement 2} with a movable object or furniture}
+$cmancmd     = $vbbtake the {kobject} to the {placement 2 meta: Block access to {placement 2} with a movable object or furniture}
 $cmancmd     = $vbbring me the $abspos object $cmanobjsrc
 $cmancmd     = $vbbring me the object $relpos the {object}  $cmanobjsrc
-$cmancmd     = $vbbring me the $oprop (object | {category}) from the {object} $cmanobjsrc
+$cmancmd     = $vbbring me the $oprop (object | {category}) $cmanobjsrc
 $cmanwarn    = {void meta: This command is for DSPL and OPL only}
 $cmanobjsrc  = from the {placement 2 meta: Place at least 5 objects in the {placement 2}}
 
@@ -70,7 +70,7 @@ $inguidewho  = {name 1 meta: {name 1} must be taken from {beacon 1} to {beacon 2
 # Wrong commands
 #
 ##############################################################################
-$erroneous   = $cmanwarn take the $errnoobj to the {placement 2}
+$erroneous   = $cmanwarn $vbbtake the $errnoobj to the {placement 2}
 $erroneous   = $cmanwarn $vbplace the $errnoobj on the {placement 2}
 $erroneous   = $cmanwarn $vbbring me the $errnoobj
 
@@ -105,7 +105,7 @@ $fllwoutdest = {void meta: The robot must follow {name 1} outside the arena}
 # Find objects
 #
 ##############################################################################
-$fndobj   = Tell me which are the three $oprop (objects | {category}) on the {placement 1 meta: Place at least 5 objects on the {placement 1}}
+$fndobj   = tell me which are the three $oprop (objects | {category}) on the {placement 1 meta: Place at least 5 objects on the {placement 1}}
 $fndobj   = $vbfind three {category} in the {room meta: Place only 3 objects in the room}
 
 

@@ -38,6 +38,12 @@ fridge
 Remarks
 	 This command is for DSPL and OPL only
 	 
+Fixed 
+$cmancmd     = $vbbring me the $oprop (object | {category}) from the {object} $cmanobjsrc
+to 
+$cmancmd     = $vbbring me the $oprop (object | {category}) $cmanobjsrc
+
+	 
 -Could you please pick up the tray the big dish to the desk
 
 desk
@@ -74,7 +80,7 @@ cabinet
 Remarks
 	 This command is for DSPL and OPL only
 	 
-* fixed this, $take has take the object already in it so just removed the $ from take in the following
+* fixed this, $take has take the object already in it so just made it $vbbtake
 $cmancmd     = $take the {kobject} to the {placement 2 meta: Block access to {placement 2} with a movable object or furniture}
 
 $erroneous   = $cmanwarn $take the $errnoobj to the {placement 2}
