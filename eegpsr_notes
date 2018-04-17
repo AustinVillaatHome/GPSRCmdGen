@@ -1,0 +1,100 @@
+problems with EEGPRS Cat1
+
+Could you please spot Morgan in the shower, accompany it, and spot Robin in the coffee table.
+
+
+*spot, not great, but okay.
+**accompany it!! should be accompany him, not sure how the pronoun is done...
+**I think the pronoun is matched to the shower...
+
+EEGPRS Cat2
+Done
+
+EEGPSR Cat 3
+
+Please deliver me some pear, a apple and a milk on a tray
+*to me
+
+Count the orange tea spoon at the bookshelf and inform me
+*leaving it as is, too hard to fix objects and detect plurals, etc.
+
+Could you please bring me something into a mug
+*in a 
+
+EEGPSR Cat 4
+
+EEGPSR Cat 5
+Could you please get to know Robin at the bed, then find it in the kitchen
+**pronoun bug!
+
+
+=================
+Strategy for Cat 1 simple
+=================
+3 things go, get, follow, or find
+We really need following to be super good. Can use HRI to make it easier. Say slow down or wait up.
+-unclear what to do when finding objects
+
+incomplete:
+-put object in room (with no location). Need to ask for location, should be easy to detect.
+-fruits (apple)
+-find someone in a group need to figure out who it is (they might be doing a specific gesture)
+-escort him ... (destination unspecified)
+-When finding things need to ask what to do with them.
+-Person without location.
+
+erroneous:
+-item not in specified room
+-person not in specified location
+-person can't walk
+-person blocking access
+-item not at predefined location
+-special question from this grammar
+-name given for person is incorrect
+-object out of reach
+
+
+=============
+Cat 2
+============
+simpl.
+Need to be able to recognize people, follow and guide, and recognize gestures and poses and clothing colors, genders, and ages and be able to describe someone.
+
+incomplete.
+Ask about person to talk to.
+room given but not location.
+reference people, but not room.
+
+erroneous:
+-all paths blocked to room
+-people all lying down
+-someone will abort the test partway through guiding/following...
+-nobody in room
+-follow walker through congestion
+-people not facing robot
+
+
+
+
+===========
+Cat 3
+===========
+open and close doors, bring items on tray, describe items in a location, search for an object in a location. Deliver stuff (tea??!!) pour cereal. Arrange things. place things in specific locations.
+
+incomplete:
+-non-specific door to open or shut
+-room but no location specified
+-object specified but no location
+-category but not specific
+
+erroneous:
+-person blocking door
+-door already closed/open
+-person at different location
+-person using oven/ standing at location
+-no object
+-ask to pour something no pourable into something not a container
+-robot can't reach
+-nonsense phrases like "Hand me some containers from the cookies on the cupboard"
+-all paths to destination are blocked
+

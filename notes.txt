@@ -85,4 +85,12 @@ $cmancmd     = $take the {kobject} to the {placement 2 meta: Block access to {pl
 
 $erroneous   = $cmanwarn $take the $errnoobj to the {placement 2}
 	 
+Easy questions are possible for Cat II and Cat III
+
+ex: $fndobj
+Look for the cloth in the bathroom
+
+maybe should be different fndobj than commonrules?
+
+do we want fndobj in all cats? maybe add findobj
 
