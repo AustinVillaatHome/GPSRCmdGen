@@ -1,0 +1,15 @@
+Bugs
+
+EEGPSR Cat 1
+Could you please spot Morgan in the shower, accompany it, and spot Robin in the coffee table.
+*pronoun is wrong
+
+EEGPSR Cat 3
+
+Robot please hand me some big dish, a apple and a tea on a tray
+*should be either a snacks or cereal...
+
+EEGPSR Cat 5
+
+Could you please get to know Robin at the bed, then find it in the kitchen
+*probably same pronoun bug as above

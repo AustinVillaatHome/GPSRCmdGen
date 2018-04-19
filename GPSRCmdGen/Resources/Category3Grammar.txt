@@ -55,7 +55,7 @@ $cmanobjsrc  = from the {placement 2 meta: Place at least 5 objects in the {plac
 #
 ##############################################################################
 $incomplete  = $vbfollow {name 1 meta: {name 1} is at the {beacon 1}}
-$incomplete  = $cmanwarn $vbbring me a {object?}
+$incomplete  = $cmanwarn $vbbring me the {object?}
 $incomplete  = $vbdeliver {object?} to $someone
 $incomplete  = $vbguide {name 1 meta: {name 1} is at the {beacon 1}} to the {beacon 2}
 $incomplete  = meet $inguidewho and $vbguide {pron}
