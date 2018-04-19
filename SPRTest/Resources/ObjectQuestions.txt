@@ -2,7 +2,7 @@
 ; grammar tier High
 
 $Main = $objq
-$objq = Where can I find a {object}?
+$objq = Where can I find the {object}?
 $objq = How many {category} are there?
 $objq = What's the color of the {kobject}?
 $objq = How many ({category} | objects) are in the {placement}?
