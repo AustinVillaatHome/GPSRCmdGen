@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <categories>
   <category name="snacks" defaultLocation="center table" room="living room">
-    <object name="chips"         difficulty="moderate" />
-    <object name="M and M's"       difficulty="moderate" />
-    <object name="pringles"      difficulty="easy" />
-    <object name="cookies"       difficulty="easy" />
+    <object name="chips"         difficulty="moderate" color="red" size="2"  weight="1" />
+    <object name="M and M's"       difficulty="moderate" color="yellow" size="1"  weight="2"/>
+    <object name="pringles"      difficulty="easy" color="red" size="5"  weight="2"/>
+    <object name="cookies"       difficulty="easy" color="yellow" size="5"  weight="4"/>
   </category>
   <category name="fruits" defaultLocation="dining table" room="dining room">
-    <object name="apple"         difficulty="moderate" type="alike"   fruit="true"   />
-    <object name="melon"         difficulty="high"     type="alike"   fruit="true"   />
-    <object name="banana"        difficulty="moderate" type="alike"   fruit="true"   />
-    <object name="pear"          difficulty="moderate" type="alike"   fruit="true"   />
-    <object name="peach"         difficulty="moderate" type="alike"   fruit="true"   />
+    <object name="apple"         difficulty="moderate" type="alike"   fruit="true"  color="red" size="2"  weight="3" />
+    <object name="melon"         difficulty="high"     type="alike"   fruit="true"  color="green" size="4"  weight="6" />
+    <object name="banana"        difficulty="moderate" type="alike"   fruit="true"  color="yellow" size="3"  weight="2" />
+    <object name="pear"          difficulty="moderate" type="alike"   fruit="true"  color="green" size="2"  weight="3" />
+    <object name="peach"         difficulty="moderate" type="alike"   fruit="true"  color="peach" size="2"  weight="2" />
   </category>
   <category name="food" defaultLocation="cupboard" room="kitchen">
-    <object name="pasta"         difficulty="easy"                                   />
-    <object name="noodles"       difficulty="easy"                                   />
-    <object name="tuna fish"     difficulty="moderate"                               />
-    <object name="pickles"       difficulty="high"                                   />
+    <object name="pasta"         difficulty="easy"      color="yellow" size="3"  weight="3"   />
+    <object name="noodles"       difficulty="easy"      color="white"  size="3"  weight="2"   />
+    <object name="tuna fish"     difficulty="moderate"  color="blue"   size="2"  weight="3"   />
+    <object name="pickles"       difficulty="high"      color="green"  size="4"  weight="5"          />
   </category>
   <category name="food" defaultLocation="cupboard" room="kitchen">
-    <object name="choco flakes"  difficulty="high"     type="known"   canPour="true" />
-    <object name="Robo O's"      difficulty="high"     type="known"   canPour="true" />
-    <object name="muesli"        difficulty="high"     type="known"   canPour="true" />
+    <object name="choco flakes"  difficulty="high"     type="known"   canPour="true" color="brown" size="5"  weight="3" />
+    <object name="Robo O's"      difficulty="high"     type="known"   canPour="true" color="blue"  size="4"  weight="4" />
+    <object name="muesli"        difficulty="high"     type="known"   canPour="true" color="brown" size="3"  weight="4" />
   </category>
 
   <category name="drinks" defaultLocation="fridge" room="kitchen">
-    <object name="tea"           difficulty="easy"                    canPour="true" />
-    <object name="beer"          difficulty="easy"                                      alcoholic="true" />
-    <object name="coke"          difficulty="easy"                    canPour="true" />
-    <object name="water"         difficulty="easy"                    canPour="true" />
-    <object name="milk"          difficulty="easy"                    canPour="true" />
+    <object name="tea"           difficulty="easy"    canPour="true" color="black" size="3"  weight="1" />
+    <object name="beer"          difficulty="easy"    alcoholic="true" color="brown" size="2"  weight="3" />
+    <object name="coke"          difficulty="easy"    canPour="true" color="red" size="2"  weight="3" />
+    <object name="water"         difficulty="easy"    canPour="true" color="clear" size="2"  weight="3" />
+    <object name="milk"          difficulty="easy"    canPour="true" color="white" size="4"  weight="5"/>
   </category>
   <category name="cutlery" defaultLocation="bar" room="kitchen">
-    <object name="tea spoon"     difficulty="high"     type="known"                  />
-    <object name="spoon"         difficulty="high"     type="known"                  />
-    <object name="fork"          difficulty="high"     type="known"                  />
-    <object name="knife"         difficulty="high"     type="known"                  />
-    <object name="napkin"        difficulty="high"     type="known"                  />
+    <object name="tea spoon"     difficulty="high"     type="known"    color="white" size="1"  weight="1"/>
+    <object name="spoon"         difficulty="high"     type="known"    color="silver" size="2"  weight="2" />
+    <object name="fork"          difficulty="high"     type="known"    color="silver" size="2"  weight="2"/>
+    <object name="knife"         difficulty="high"     type="known"    color="silver" size="2"  weight="3"/>
+    <object name="napkin"        difficulty="high"     type="known"    color="white" size="3"  weight="1"/>
   </category>
   <category name="tableware" defaultLocation="cupboard" room="dining room">
-    <object name="big dish"      difficulty="moderate" type="known"   canPlaceOn="true"                 />
-    <object name="small dish"    difficulty="moderate" type="known"   canPlaceOn="true"                 />
-    <object name="bowl"          difficulty="high"                    canPourIn="true"                  />
-    <object name="glass"         difficulty="moderate"                canPourIn="true"                  />
-    <object name="mug"           difficulty="high"                    canPourIn="true"                  />
+    <object name="big dish"      difficulty="moderate" type="known"   canPlaceOn="true"    color="blue" size="5"  weight="6"/>
+    <object name="small dish"    difficulty="moderate" type="known"   canPlaceOn="true"    color="red" size="3"  weight="2"/>
+    <object name="bowl"          difficulty="high"                    canPourIn="true"     color="white" size="3"  weight="3"/>
+    <object name="glass"         difficulty="moderate"                canPourIn="true"     color="clear" size="4"  weight="3"/>
+    <object name="mug"           difficulty="high"                    canPourIn="true"     color="black" size="3"  weight="3"/>
   </category>
   <category name="containers" defaultLocation="bar" room="kitchen">
-    <object name="tray"          difficulty="high"     type="special" canPlaceOn="true" twoHands="true" />
-    <object name="box"           difficulty="high"     type="special" canPlaceIn="true" twoHands="true" />
-    <object name="bag"           difficulty="easy"     type="special" canPlaceIn="true"                 />
+    <object name="tray"          difficulty="high"     type="special" canPlaceOn="true" twoHands="true" color="grey" size="5"  weight="3"/>
+    <object name="box"           difficulty="high"     type="special" canPlaceIn="true" twoHands="true" color="blue" size="5"  weight="4"/>
+    <object name="bag"           difficulty="easy"     type="special" canPlaceIn="true"                 color="red" size="4"  weight="2"/>
   </category>
 </categories>

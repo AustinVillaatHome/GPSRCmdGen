@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rooms>
-  <room name="bedroom">
+  <room name="bedroom" doors="1">
     <location name="bed" isBeacon="true" />
     <location name="night table" isPlacement="true" />
     <location name="dresser" isPlacement="true" />
     <location name="desk" isBeacon="true" isPlacement="true" />
   </room>
-  <room name="dining room">
+  <room name="dining room" doors = "2">
     <location name="dining table" isBeacon="true" isPlacement="true" />
     <location name="bookshelf" isPlacement="true" />
   </room>
-  <room name="living room">
+  <room name="living room" doors="2">
     <location name="sofa" isBeacon="true" isPlacement="true" />
     <location name="coffee table" isBeacon="true" isPlacement="true" />
     <location name="tv stand" isPlacement="true" isBeacon="true"/>
   </room>
-  <room name="kitchen">
+  <room name="kitchen" doors="2">
     <location name="bar" isPlacement="true" />
     <location name="microwave" isPlacement="true" />
     <location name="cupboard" isPlacement="true" />
@@ -24,7 +24,7 @@
     <location name="freezer" isPlacement="true" />
     <location name="dishwasher" isPlacement="true" />
   </room>
-  <room name="foyer">
+  <room name="foyer" doors="2">
     <location name="shoe bench" isBeacon="true" isPlacement="true" />
   </room>
 </rooms>
