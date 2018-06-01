@@ -17,9 +17,7 @@
     <object name="pasta"         difficulty="easy"      color="yellow" size="3"  weight="3"   />
     <object name="noodles"       difficulty="easy"      color="white"  size="3"  weight="2"   />
     <object name="tuna fish"     difficulty="moderate"  color="blue"   size="2"  weight="3"   />
-    <object name="pickles"       difficulty="high"      color="green"  size="4"  weight="5"          />
-  </category>
-  <category name="food" defaultLocation="cupboard" room="kitchen">
+    <object name="pickles"       difficulty="high"      color="green"  size="4"  weight="5"   />
     <object name="choco flakes"  difficulty="high"     type="known"   canPour="true" color="brown" size="5"  weight="3" />
     <object name="Robo O's"      difficulty="high"     type="known"   canPour="true" color="blue"  size="4"  weight="4" />
     <object name="muesli"        difficulty="high"     type="known"   canPour="true" color="brown" size="3"  weight="4" />
