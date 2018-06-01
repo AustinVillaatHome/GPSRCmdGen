@@ -69,7 +69,7 @@ $singleSp = answer a {question}
 ##############################################################################
 ; Find object in room
 $findord  = $vbgor the {room}, $vbfind the {object}
-$findors  = $vbfind a {object} in the {room}
+$findors  = $vbfind the {object} in the {room}
 
 ; Take an object
 $take     = $vbtake the {aobject} from the {placement}

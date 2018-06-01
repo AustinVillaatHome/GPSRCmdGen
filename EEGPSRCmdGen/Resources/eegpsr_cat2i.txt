@@ -21,6 +21,7 @@ $task  	   = tell me how many $peopleR $roomI
 
 ; Host
 $task  	   = offer something to (eat | drink) to all the $peopleg $roomI
+$task  	   = offer something to (eat | drink) to all the $peopleg $roomI
 $task  	   = offer something to (eat | drink) to {name 1 meta: Introduce {name 1} to the robot right after giving the command} in the $room
 
 ; Bring to person matching description
@@ -84,7 +85,7 @@ $peopleDsc = wearing $outfitss
 $peopleDsc = wear $color
 
 $people    = $ppl
-$people    = $posture $ppl
+$people    = $ppl $posture
 $peopleg    = $ppl {gesture}
 $peoplege    = $ppl are {gesture}
 $people    = $ppl wearing $outfitss
@@ -102,11 +103,13 @@ $ppl       = people | children | elders | men | women
 ##############################################################################
 $person    = child
 $person    = $lpdesc (man | woman | person)
+$person    = (man | woman | person) {gesture}
 $person    = (man | woman | person) $rpdesc
-$lpdesc    = {gesture} | tallest | smallest | oldest | youngest | slimmest | fattest
+$lpdesc    = tallest | smallest | oldest | youngest | slimmest | fattest
+
 $rpdesc    = dressed in an $coloran $outfita
 $rpdesc    = dressed in a $colora $outfita
-$rpdesc    = wearing ($apparel | a $colora $outfita | an $coloran $outfitan | ($colora | $coloran) $outfits)
+$rpdesc    = wearing ($apparel | a $colora $outfita | an $coloran $outfita | ($colora | $coloran) $outfits)
 
 $colora	   = blue | yellow | black | white | red | gray
 $coloran   = orange
