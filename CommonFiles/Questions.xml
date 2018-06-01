@@ -1,127 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	This is an example file for testing the generators.
-	The real information used in Montreal 2018 will be published
-	and distributed by the Organizing Committee during Setup days
+       This is an example file for testing the generators.
+       The real information used in Montreal 2018 will be published
+       and distributed by the Organizing Committee during Setup days
 //-->
+
 <questions>
   <question>
-    <q>Who's the most handsome person in Canada?<q>
+    <q>Who's the most handsome person in Canada?</q>
     <a>I think he's Justin Trudeau</a>
   </question>
 
   <question>
-    <q>How many time zones has Canada?<q>
+    <q>How many time zones has Canada?</q>
     <a>Canada spans 9984670 square km and comprises 6 time zones</a>
   </question>
 
   <question>
-    <q>What's the longest street in the world?<q>
+    <q>What's the longest street in the world?</q>
     <a>The Yonge Street in Ontario.</a>
   </question>
 
   <question>
-    <q>How long is the Yonge Street in Ontario?<q>
+    <q>How long is the Yonge Street in Ontario?</q>
     <a>Almost 2,000 km, starting in Lake Ontario, and running north	to the Minnesota border.</a>
   </question>
 
   <question>
-    <q>What's the name of the bear cub exported from Canada to the London Zoo in 1915?<q>
+    <q>What's the name of the bear cub exported from Canada to the London Zoo in 1915?</q>
     <a>The bear cube was named Winnipeg. It inspired the stories of Winnie-the-Pooh.</a>
   </question>
 
   <question>
-    <q>Where was developed the Blackberry Smartphone?<q>
+    <q>Where was developed the Blackberry Smartphone?</q>
     <a>It was developed in Ontario, at Research In Motion's Waterloo offices.</a>
   </question>
 
   <question>
-    <q>What's the world's largest coin?<q>
+    <q>What's the world's largest coin?</q>
     <a>The Big Nickel in Sudbury, Ontario. It has nine meters in diameter.</a>
   </question>
 
   <question>
-    <q>What year was Canada invaded by the USA for the first time?<q>
+    <q>What year was Canada invaded by the USA for the first time?</q>
     <a>The fisrt time the USA invaded Canada	was in 1775</a>
   </question>
 
   <question>
-    <q>What year was Canada invaded by the USA for the second time?<q>
+    <q>What year was Canada invaded by the USA for the second time?</q>
     <a>The USA invaed Canada a second time	in 1812.</a>
   </question>
 
   <question>
-    <q>What country holds the record for the most gold medals at the Winter Olympics?<q>
+    <q>What country holds the record for the most gold medals at the Winter Olympics?</q>
     <a>Canada! With 14 Golds at the 2010 Vancouver Winter Olympics.</a>
   </question>
 
   <question>
-    <q>Who coined the term Beatlemania?<q>
+    <q>Who coined the term Beatlemania?</q>
     <a>Sandy Gardiner, a journalist of the Ottawa Journal.</a>
   </question>
 
   <question>
-    <q>Why is Canada named like that?<q>
+    <q>Why is Canada named like that?</q>
     <a>French explorers misunderstood the local native word "Kanata", which means village.</a>
   </question>
 
   <question>
-    <q>When was The Mounted Police formed?<q>
+    <q>When was The Mounted Police formed?</q>
     <a>The Mounted Police was formed in 1873.</a>
   </question>
 
   <question>
-    <q>When was The Royal Canadian Mounted Police formed?<q>
+    <q>When was The Royal Canadian Mounted Police formed?</q>
     <a>In 1920, when The Mounted Police merged with the Dominion Police.</a>
   </question>
 
   <question>
-    <q>How big The Mounted Police is?<q>
+    <q>How big The Mounted Police is?</q>
     <a>Today, The Mounted Police has close to 30 000 members.</a>
   </question>
 
   <question>
-    <q>How else is also Montreal called?<q>
+    <q>How else is also Montreal called?</q>
     <a>Montreal is often called The City of Saints or City of a Hundred Bell Towers.</a>
   </question>
 
   <question>
-    <q>Where is located The Hotel de Glace?<q>
+    <q>Where is located The Hotel de Glace?</q>
     <a>The Hotel de Glace is in Quebec.</a>
   </question>
 
   <question>
-    <q>How many tons of ice are required for The Hotel de Glace?<q>
+    <q>How many tons of ice are required for The Hotel de Glace?</q>
     <a>The Hotel de Glace requires about 400 tons of ice.</a>
   </question>
 
   <question>
-    <q>How many tons of snow are required for The Hotel de Glace?<q>
+    <q>How many tons of snow are required for The Hotel de Glace?</q>
     <a>Every year, 12000 tons of snow are used for The Hotel de Glace.</a>
   </question>
 
   <question>
-    <q>Can I visit the Hotel de Glace in summer?<q>
+    <q>Can I visit the Hotel de Glace in summer?</q>
     <a>No. Every summer it melts away, only to be rebuilt the following winter.</a>
   </question>
 
   <question>
-    <q>What's Canada's only desert?<q>
+    <q>What's Canada's only desert?</q>
     <a>Canada's only desert is British Columbia.</a>
   </question>
 
   <question>
-    <q>How big is Canada's only desert?<q>
+    <q>How big is Canada's only desert?</q>
     <a>The British Columbia desert is only 15 miles long.</a>
   </question>
 
   <question>
-    <q>Name 3 famous male Canadians.<q>
+    <q>Name 3 famous male Canadians.</q>
     <a>Leonard Cohen, Keanu Reeves, and Jim Carrey.</a>
   </question>
 
   <question>
-    <q>Name 3 famous female Canadians.<q>
+    <q>Name 3 famous female Canadians.</q>
     <a>Celine Dion, Pamela Anderson, and Avril Lavigne.</a>
   </question>
 
