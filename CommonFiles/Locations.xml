@@ -13,13 +13,13 @@
   <room name="living room" doors="2">
     <location name="sofa" isBeacon="true" isPlacement="true" />
     <location name="coffee table" isBeacon="true" isPlacement="true" />
-    <location name="tv stand" isPlacement="true" isBeacon="true"/>
+    <location name="tv stand" isBeacon="true" isPlacement="true"/>
   </room>
   <room name="kitchen" doors="2">
-    <location name="bar" isPlacement="true" />
+    <location name="bar" isBeacon="true" isPlacement="true" />
     <location name="microwave" isPlacement="true" />
     <location name="cupboard" isPlacement="true" />
-    <location name="island" isPlacement="true" />
+    <location name="island" isBeacon="true" isPlacement="true" />
     <location name="fridge" isPlacement="true" />
     <location name="freezer" isPlacement="true" />
     <location name="dishwasher" isPlacement="true" />

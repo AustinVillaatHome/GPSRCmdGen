@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <categories>
-  <category name="snacks" defaultLocation="center table" room="living room">
+  <category name="snacks" defaultLocation="coffee table" room="living room">
     <object name="chips"         difficulty="moderate" color="red" size="2"  weight="1" />
     <object name="M and M's"       difficulty="moderate" color="yellow" size="1"  weight="2"/>
     <object name="pringles"      difficulty="easy" color="red" size="5"  weight="2"/>
@@ -39,7 +39,7 @@
     <object name="knife"         difficulty="high"     type="known"    color="silver" size="2"  weight="3"/>
     <object name="napkin"        difficulty="high"     type="known"    color="white" size="3"  weight="1"/>
   </category>
-  <category name="tableware" defaultLocation="cupboard" room="dining room">
+  <category name="tableware" defaultLocation="cupboard" room="kitchen">
     <object name="big dish"      difficulty="moderate" type="known"   canPlaceOn="true"    color="blue" size="5"  weight="6"/>
     <object name="small dish"    difficulty="moderate" type="known"   canPlaceOn="true"    color="red" size="3"  weight="2"/>
     <object name="bowl"          difficulty="high"                    canPourIn="true"     color="white" size="3"  weight="3"/>
