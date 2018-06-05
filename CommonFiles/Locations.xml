@@ -14,7 +14,7 @@
     <location name="sofa" isBeacon="true" isPlacement="true" />
     <location name="coffee table" isBeacon="true" isPlacement="true" />
     <location name="tv stand" isBeacon="true" isPlacement="true"/>
-    <location name="gpsr start position" />
+    <location name="gpsr start position" isBeacon="true" />
   </room>
   <room name="kitchen" doors="2">
     <location name="bar" isBeacon="true" isPlacement="true" />
@@ -27,6 +27,6 @@
   </room>
   <room name="foyer" doors="2">
     <location name="shoe bench" isBeacon="true" isPlacement="true" />
-    <location name="gpsr exit position" />
+    <location name="gpsr exit position" isBeacon="true" />
   </room>
 </rooms>
