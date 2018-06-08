@@ -1,0 +1,9 @@
+$singleSpI= (speak | say something) {void meta: When asked, reply to the robot: "$whattosay" }
+$singleI  = $findprdI
+$singleI  = $findprsI
+$findprdI = $vbgor to the {room}, $vbfind {name meta: {pron sub} is (sitting | standing | waving ). Place three people in the room}
+$findprsI = $vbfind {name meta: {pron sub} is (sitting | standing | waving ) at the {room}}
+$singleI  = $takeI
+$singleI = $takeE
+$takeI    = $vbtake the {aobject? meta: Place to } from the {placement}
+$takeE    = $vbtake the {object1 where Category="{category 1}"} from the {placement1 meta: Instead of {object 1} there are {object where Category="{category 1}"} and {object where Category="{category 1}"}}

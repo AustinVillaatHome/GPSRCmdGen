@@ -123,7 +123,8 @@ $vbgopl    = go to | navigate to
 $vbgor     = $vbgopl | enter
 $vbfind    = find | locate | spot | pinpoint | look for
 $vbguide   = guide | escort | take | lead | accompany | conduct
-$vbfollow  = follow | ((come | go) (behind | after)) | accompany
+#$vbfollow  = follow | ((come | go) (behind | after)) | accompany
+$vbfollow  = follow | come behind | come after | go behind | go after | accompany
 $vbdeliver = bring | deliver | give | hand | hand over
 
 ##############################################################################
