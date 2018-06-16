@@ -16,6 +16,7 @@
     <location name="tv stand" isBeacon="true" isPlacement="true"/>
     <location name="gpsr start position" isBeacon="true" />
     <location name="eegpsr start position" isBeacon="true" />
+    <location name="inspection point" isBeacon="true"/>
   </room>
   <room name="kitchen" doors="2">
     <location name="bar" isBeacon="true" isPlacement="true" />
@@ -30,5 +31,6 @@
     <location name="shoe bench" isBeacon="true" isPlacement="true" />
     <location name="gpsr exit position" isBeacon="true" />
     <location name="eegpsr exit position" isBeacon="true" />
+    <location name="inspection exit position" isBeacon="true"/>
   </room>
 </rooms>
