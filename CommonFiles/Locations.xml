@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  This is an example file for testing the generators.
+  The real information used in Montreal 2018 will be published
+  and distributed by the Organizing Committee during Setup days
+//-->
 <rooms>
-  <room name="bedroom" doors="1">
+  <room name="corridor" doors="1">
+    <location name="entrance" isBeacon="true" />
+  </room>
+  <room name="bedroom" doors="2">
     <location name="bed" isBeacon="true" />
-    <location name="night table" isPlacement="true" />
-    <location name="dresser" isPlacement="true" />
+    <location name="side table" isPlacement="true" />
     <location name="desk" isBeacon="true" isPlacement="true" />
   </room>
-  <room name="dining room" doors = "2">
+  <room name="dining room" doors="0">
     <location name="dining table" isBeacon="true" isPlacement="true" />
-    <location name="bookshelf" isPlacement="true" />
   </room>
-  <room name="living room" doors="2">
-    <location name="sofa" isBeacon="true" isPlacement="true" />
-    <location name="coffee table" isBeacon="true" isPlacement="true" />
-    <location name="tv stand" isBeacon="true" isPlacement="true"/>
-    <location name="gpsr start position" isBeacon="true" />
-    <location name="eegpsr start position" isBeacon="true" />
-    <location name="inspection point" isBeacon="true"/>
+  <room name="living room" doors="1">
+    <location name="exit" isBeacon="true" />
+    <location name="couch" isBeacon="true" />
+    <location name="end table" isBeacon="true" isPlacement="true" />
+    <location name="bookcase" isPlacement="true" isBeacon="true" />
   </room>
-  <room name="kitchen" doors="2">
-    <location name="bar" isBeacon="true" isPlacement="true" />
-    <location name="microwave" isPlacement="true" />
+  <room name="kitchen" doors="0">
     <location name="cupboard" isPlacement="true" />
-    <location name="island" isBeacon="true" isPlacement="true" />
-    <location name="fridge" isPlacement="true" />
-    <location name="freezer" isPlacement="true" />
-    <location name="dishwasher" isPlacement="true" />
-  </room>
-  <room name="foyer" doors="2">
-    <location name="shoe bench" isBeacon="true" isPlacement="true" />
-    <location name="gpsr exit position" isBeacon="true" />
-    <location name="eegpsr exit position" isBeacon="true" />
-    <location name="inspection exit position" isBeacon="true"/>
+    <location name="storage table" isPlacement="true" />
+    <location name="sink" isBeacon="true" isPlacement="true" />
+    <location name="counter" isPlacement="true" />
+    <location name="dishwasher" isBeacon="true" />
   </room>
 </rooms>
+
+
