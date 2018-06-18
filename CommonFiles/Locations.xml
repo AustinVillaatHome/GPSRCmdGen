@@ -29,6 +29,8 @@
     <location name="sink" isBeacon="true" isPlacement="true" />
     <location name="counter" isPlacement="true" />
     <location name="dishwasher" isBeacon="true" />
+    <location name="gpsr start position" />
+
   </room>
 </rooms>
 
