@@ -51,7 +51,7 @@
 	<category name="tableware"  defaultLocation="dining table" room="dining room">
 		<object name="dish"     type="known" difficulty="moderate" canPlaceOn="true" color="green, blue, or red" size="625" weight="51"/>
 		<object name="bowl"     type="known" difficulty="moderate" canPourIn="true"  color="green, blue, or red" size="256" weight="35"/>
-		<object name="glass"    type="known" difficulty="moderate" canPourIn="true"  color="green, blue, or red" size="80" weight="31"/>
+		<object name="cup"    type="known" difficulty="moderate" canPourIn="true"  color="green, blue, or red" size="80" weight="31"/>
 	</category>
 
 	<category name="containers" defaultLocation="bookcase" room="living room">
