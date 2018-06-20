@@ -6,7 +6,7 @@
 //-->
 <rooms>
   <room name="corridor" doors="1">
-    <location name="entrance" isBeacon="true" />
+    <location name="entrance" isBeacon="true" isPlacement="true" />
     <location name="inspection point" />
   </room>
   <room name="bedroom" doors="2">
