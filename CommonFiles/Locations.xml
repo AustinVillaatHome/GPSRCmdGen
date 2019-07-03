@@ -5,32 +5,33 @@
   and distributed by the Organizing Committee during Setup days
 //-->
 <rooms>
-  <room name="corridor" doors="1">
-    <location name="entrance" isBeacon="true" isPlacement="true" />
-    <location name="inspection point" />
-  </room>
-  <room name="bedroom" doors="2">
+  <room name="bedroom">
     <location name="bed" isBeacon="true" />
-    <location name="side table" isPlacement="true" />
+    <location name="bedroom chest" isPlacement="true" />
+    <location name="sidetable" isPlacement="true" />
+    <location name="shelf" isPlacement="true" />
+  </room>
+  <room name="office">
+    <location name="shoe rack" isBeacon="true" />
+    <location name="safe" isBeacon="true"/>
     <location name="desk" isBeacon="true" isPlacement="true" />
+    <location name="coat hanger" isBeacon="true" />
   </room>
-  <room name="dining room" doors="0">
-    <location name="dining table" isBeacon="true" isPlacement="true" />
-  </room>
-  <room name="living room" doors="1">
-    <location name="exit" isBeacon="true" />
+  <room name="living room">
+    <location name="sideboard" isBeacon="true" isPlacement="true"/>
     <location name="couch" isBeacon="true" />
-    <location name="end table" isBeacon="true" isPlacement="true" />
-    <location name="bookcase" isPlacement="true" isBeacon="true" />
+    <location name="coffee table" isPlacement="true" />
+    <location name="armchair" isBeacon="true" />
+    <location name="display cabinet" isPlacement="true" />
+    <location name="TV" isBeacon="true" />
   </room>
-  <room name="kitchen" doors="0">
-    <location name="cupboard" isPlacement="true" />
-    <location name="storage table" isPlacement="true" />
-    <location name="sink" isBeacon="true" isPlacement="true" />
-    <location name="counter" isPlacement="true" />
-    <location name="dishwasher" isBeacon="true" />
-    <location name="gpsr start position" />
-
+  <room name="kitchen">
+    <location name="fridge" isBeacon="true" />
+    <location name="dishwasher" isPlacement="true" />
+    <location name="sink" isPlacement="true" />
+    <location name="kitchen table" isBeacon="true" isPlacement="true" />
+    <location name="kitchen cabinet" isPlacement="true" />
+    <location name="island" isPlacement="true" />
   </room>
 </rooms>
 

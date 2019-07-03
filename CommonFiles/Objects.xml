@@ -1,63 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 	This is an example file for testing the generators.
-	The real information used in Montreal 2018 will be published
+	The real information used in Sydney 2019 will be published
 	and distributed by the Organizing Committee during Setup days
 //-->
 <categories>
-	<category name="cleaning stuff" defaultLocation="storage table" room="kitchen">
-		<object name="cloth"   type="known" difficulty="high" color="pink" size="350" weight="45"/>
-		<object name="scrubby" type="known" difficulty="easy" color="yellow and green" size="60" weight="4"/>
-		<object name="sponge"  type="known" difficulty="moderate" color="yellow" size="154" weight="6"/>
-		<object name="cascade pod"  type="known" difficulty="high" color="white with some purple, green, and blue
-" size="20" weight="18"/>
+
+	<category name="candies" defaultLocation="desk" room="office">
+		<object name="biscuit"       type="known" difficulty="easy" />
+		<object name="frosty fruits" type="known" difficulty="moderate" />
+		<object name="snakes"        type="known" difficulty="moderate" />
 	</category>
 
-	<category name="snacks"         defaultLocation="book case" room="living room">
-		<object name="pringles"     type="known" difficulty="easy" color="green" size="480" weight="196"/>
-		<object name="crackers"     type="known" difficulty="easy" color="orange and white" size="140" weight="29"/>
-		<object name="potato chips" type="known" difficulty="easy" color="dark grey" size="600" weight="200"/>
+	<category name="cleaning stuff" defaultLocation="sink" room="kitchen">
+		<object name="cloth"           type="known" difficulty="high" />
+		<object name="dishwasher tab"  type="known" difficulty="high" />
+		<object name="sponge"          type="known" difficulty="moderate" />
+		<object name="trash bags"      type="known" difficulty="easy" />
 	</category>
 
-	<category name="drinks"         defaultLocation="cupboard" room="kitchen">
-		<object name="chocolate drink" type="known" difficulty="easy" canPour="true" color="brown" size="200" weight="366"/>
-		<object name="coke"            type="known" difficulty="easy" canPour="true" color="red" size="120" weight="246"/>
-		<object name="grape juice"     type="known" difficulty="easy" canPour="true" color="white and purple" size="119" weight="216"/>
-		<object name="orange juice"    type="known" difficulty="easy" canPour="true" color="white and orange" size="119" weight="216"/>
-		<object name="sprite"          type="known" difficulty="easy" canPour="true" color="blue and green" size="120" weight="241"/>
+	<category name="drinks"         defaultLocation="sideboard" room="living room">
+		<object name="beer"            type="known" difficulty="easy" canPour="true" />
+		<object name="chocolate milk"  type="known" difficulty="easy" canPour="true" />
+		<object name="coke"            type="known" difficulty="easy" canPour="true" />
+		<object name="juice"           type="known" difficulty="easy" canPour="true" />
+		<object name="lemonade"        type="known" difficulty="easy" canPour="true" />
+		<object name="tea bag"         type="known" difficulty="high" canPour="true" />
+		<object name="water"           type="known" difficulty="moderate" canPour="true" />
 	</category>
 
-	<category name="food"       defaultLocation="cupboard" room="kitchen">
-		<object name="cereal"   type="known" difficulty="easy" color="blue" size="170" weight="49"/>
-		<object name="noodles"  type="known" difficulty="easy" color="green and white" size="300" weight="88"/>
-		<object name="sausages" type="known" difficulty="easy" color="blue and silver" size="64" weight="183"/>
+	<category name="food"       defaultLocation="shelf" room="bedroom">
+		<object name="carrot"   type="alike" difficulty="high" />
+		<object name="cereals"  type="known" difficulty="moderate" />
+		<object name="noodles"  type="known" difficulty="easy" />
+		<object name="onion"    type="alike" difficulty="moderate" />
+		<object name="vegemite" type="known" difficulty="easy" />
 	</category>
 
-	<category name="fruits"     defaultLocation="desk" room="bedroom">
-		<object name="apple"    type="alike" difficulty="moderate" color="red" size="72" weight="113"/>
-		<object name="orange"   type="alike" difficulty="moderate" color="orange" size="56" weight="99"/>
-		<object name="paprika"  type="alike" difficulty="moderate" color="red" size="168" weight="172"/>
+	<category name="fruits"     defaultLocation="kitchen table" room="kitchen">
+		<object name="apple"  type="alike" difficulty="moderate" />
+		<object name="kiwi"   type="alike" difficulty="moderate" />
+		<object name="lemon"  type="alike" difficulty="moderate" />
+		<object name="orange" type="alike" difficulty="moderate" />
+		<object name="pear"   type="alike" difficulty="moderate" />
 	</category>
 
-	<category name="cutlery"    defaultLocation="dining table" room="dining room">
-		<object name="fork"     type="known" difficulty="high" color="green, blue, or red
-" size="88" weight="12"/>
-		<object name="knife"    type="known" difficulty="high" color="green, blue, or red
-" size="100" weight="13"/>
-		<object name="spoon"    type="known" difficulty="high" color="green, blue, or red
-" size="87" weight="12"/>
+	<category name="snacks"         defaultLocation="coffee table" room="living room">
+		<object name="cheetos"        type="known" difficulty="moderate" />
+		<object name="doritos"        type="known" difficulty="easy" />
+		<object name="shapes chicken" type="known" difficulty="moderate" />
+		<object name="shapes pizza"   type="known" difficulty="moderate" />
+		<object name="twisties"       type="known" difficulty="easy" />
 	</category>
 
-	<category name="tableware"  defaultLocation="dining table" room="dining room">
-		<object name="dish"     type="known" difficulty="moderate" canPlaceOn="true" color="green, blue, or red" size="625" weight="51"/>
-		<object name="bowl"     type="known" difficulty="moderate" canPourIn="true"  color="green, blue, or red" size="256" weight="35"/>
-		<object name="cup"    type="known" difficulty="moderate" canPourIn="true"  color="green, blue, or red" size="80" weight="31"/>
+	<category name="containers" defaultLocation="kitchen table" room="kitchen">
+		<object name="tray"     type="special" difficulty="high"      canPlaceOn="true" twoHands="true"  />
+		<object name="basket"   type="special" difficulty="high"      canPlaceIn="true" twoHands="true"  />
+		<object name="bag"      type="special" difficulty="easy"      canPlaceIn="true"                  />
 	</category>
 
-	<category name="containers" defaultLocation="bookcase" room="living room">
-		<object name="tray"     type="special" difficulty="high"      canPlaceOn="true" twoHands="true"  color="white" size="1900" weight="380"/>
-		<object name="basket"   type="special" difficulty="high"      canPlaceIn="true" twoHands="true"  color="tan and black" size="1350" weight="150"/>
-		<object name="bag"      type="special" difficulty="easy"      canPlaceIn="true"    color="green" size="1400" weight="38"  />
+	<category name="cutlery"    defaultLocation="kitchen cabinet" room="kitchen">
+		<object name="fork"     type="known" difficulty="high" />
+		<object name="knife"    type="known" difficulty="high" />
+		<object name="spoon"    type="known" difficulty="high" />
+	</category>
+
+	<category name="tableware"  defaultLocation="storage table" room="kitchen">
+		<object name="dish"     type="known" difficulty="moderate" canPlaceOn="true" />
+		<object name="bowl"     type="known" difficulty="moderate" canPourIn="true"  />
+		<object name="cup"    type="known" difficulty="moderate" canPourIn="true"  />
 	</category>
 
 </categories>
